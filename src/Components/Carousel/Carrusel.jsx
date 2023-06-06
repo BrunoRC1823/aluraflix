@@ -12,7 +12,7 @@ transform: scale(0.9);
 `;
 const TituloStyled = styled(mediumTitle)`
     border-radius: 10px;
-    padding:1rem 2rem;
+    padding:0.5rem 1.5rem;
 `;
 const SmallBodyStyled = styled(smallBody)`
 `;
@@ -35,11 +35,11 @@ const Carrusel = (props) => {
                 const filteredData = data.filter((item) => item.categoria_id === id);
                 return (
                     <div key={id}>
-                        <Grid container xs={12} display="flex" alignItems="center" gap={5} padding={3} >
-                            <Grid xs="auto">
+                        <Grid container display="flex" alignItems="center" gap={5} padding={3} >
+                            <Grid item xs="auto">
                                 <TituloStyled style={{backgroundColor: color}}>{nombre}</TituloStyled>
                             </Grid>
-                            <Grid xs="auto">
+                            <Grid item xs="auto">
                                 <SmallBodyStyled>{descripcion}</SmallBodyStyled>
                             </Grid>
                         </Grid>

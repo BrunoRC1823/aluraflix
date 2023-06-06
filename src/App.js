@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/registrarVideo' element={<NuevoVideo />} />
-        <Route path='/registrarCategoria' element={<NuevaCategoria />} />
+        <Route path='/nuevoVideo' element={<NuevoVideo />} />
+        <Route path='/nuevaCategoria' element={<NuevaCategoria />} />
       </Routes>
       <Footer />
     </Router>

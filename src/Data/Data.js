@@ -30,7 +30,7 @@ export const data = [
         id:4,
         titulo: "Que significa penar como programador",
         url: "https://www.youtube.com/watch?v=ov7vA5HFe6w",
-        imagen: "/img/varJS.jpg",
+        imagen: "/img/varJs.jpg",
         categoria_id:1,
         descripcion: "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
         codigoSeg: ""
@@ -66,7 +66,7 @@ export const data = [
         id: 8,
         titulo: "Que significa penar como programador",
         url: "https://www.youtube.com/watch?v=ov7vA5HFe6w",
-        imagen: "/img/varJS.jpg",
+        imagen: "/img/varJs.jpg",
         categoria_id:2,
         descripcion: "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
         codigoSeg: ""
@@ -102,7 +102,7 @@ export const data = [
         id:12,
         titulo: "Que significa penar como programador",
         url: "https://www.youtube.com/watch?v=ov7vA5HFe6w",
-        imagen: "/img/varJS.jpg",
+        imagen: "/img/varJs.jpg",
         categoria_id:3,
         descripcion: "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
         codigoSeg: ""

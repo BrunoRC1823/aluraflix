@@ -34,7 +34,7 @@ const Header = () => {
             <Link to="/nuevoVideo">
                 <Boton
                     variant="outlined"
-                    type="submit"
+                    type="button"
                     text="Nuevo Video"
                     sx={estilosBoton}
                 />

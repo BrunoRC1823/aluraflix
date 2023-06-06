@@ -7,9 +7,9 @@ const Home = () => {
     return (
         <>
             <Banner/>
-            <Box component="section" sx={{
-                paddingBottom:"5rem",
-                boxSizing: "border-box"
+            <Box component="section" 
+            sx={{
+                paddingBottom:"5rem"
             }}>
                 <Carrusel categoria={cate}/>
             </Box>

@@ -5,7 +5,7 @@ export const SampleNextArrow = ({ onClick }) => {
     return (
         <ArrowForwardIosOutlinedIcon onClick={onClick} sx={{
             position: "absolute",
-            color: "#f8f8f86d",
+            color: "#f8f8f822",
             width: "8rem",
             fontSize: "8rem",
             right: "-1%",
@@ -16,6 +16,7 @@ export const SampleNextArrow = ({ onClick }) => {
             cursor: "pointer",
             "&:hover": {
                 backdropFilter: "blur(2px)",
+                color: "#f8f8f84e",
             }
         }} />
     );
@@ -25,7 +26,7 @@ export  const SamplePrevArrow = ({ onClick }) => {
     return (
         <ArrowBackIosNewOutlinedIcon onClick={onClick} sx={{
             position: "absolute",
-            color: "#f8f8f86d",
+            color: "#f8f8f822",
             width: "8rem",
             fontSize: "8rem",
             left: "-1%",
@@ -36,6 +37,7 @@ export  const SamplePrevArrow = ({ onClick }) => {
             cursor: "pointer",
             "&:hover": {
                 backdropFilter: "blur(2px)",
+                color: "#f8f8f84e",
             }
         }} />
     );

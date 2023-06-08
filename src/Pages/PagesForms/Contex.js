@@ -150,6 +150,15 @@ export const CounterProvider = ({ children }) => {
                         },
                         '& .css-1glvl0p-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-clearIndicator':{
                             color: 'white',
+                        },
+                        '& .css-14x1nlk ':{
+                            color: '#ffffff92',
+                        },
+                        '& .css-vubbuv':{
+                            color: 'white',
+                        },
+                        '& .css-1k33q06':{
+                            color: 'white',
                         }
                     }
                 },

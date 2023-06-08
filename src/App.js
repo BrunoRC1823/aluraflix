@@ -3,8 +3,8 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./Pages/Home";
-import NuevaCategoria from "./Pages/NuevaCategoria";
-import NuevoVideo from "./Pages/NuevoVideo";
+import NuevaCategoria from "./Pages/PagesForms/NuevaCategoria";
+import NuevoVideo from "./Pages/PagesForms/NuevoVideo";
 
 
 function App() {

@@ -11,6 +11,17 @@ export const colorInnovacion = "#ff8c2a";
 export const colorUX = "#dc6ebe";
 export const colorDataScience = "#9cd33b";
 
+export const ListaColores = [
+    colorFrontEnd,
+    colorInfraestructura,
+    colorBackEnd,
+    colorMarketing,
+    colorMobile,
+    colorInnovacion,
+    colorUX,
+    colorDataScience,
+]
+
 export const colorBlackDark = "#000000e5"
 export const colorBlackMedium = "#00000099"
 export const colorBlackLight = "#0000007f"
@@ -46,28 +57,28 @@ export const smallTitle = styled.p`
     color: ${colorGrayLight};
 `
 
-export const bigBody = styled.p `
+export const bigBody = styled.p`
     font-family: "Roboto";
     font-weight: 300;
     font-size: 27px;
     line-height: 31.64px;
     color: ${colorGrayLight};
 `
-export const mediumBody = styled.p `
+export const mediumBody = styled.p`
     font-family: "Roboto";
     font-weight: 300;
     font-size: 18px;
     line-height: 21.09px;
     color: ${colorGrayLight};
 `
-export const smallBody = styled.p `
+export const smallBody = styled.p`
     font-family: "Roboto";
     font-weight: 300;
     font-size: 16px;
     line-height: 18.75px;
     color: ${colorGrayLight};
 `
-export const smallerBody = styled.p `
+export const smallerBody = styled.p`
     font-family: "Roboto";
     font-weight: 300;
     font-size: 12px;

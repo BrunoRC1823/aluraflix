@@ -1,16 +1,12 @@
-import { Autocomplete, Box, TextField } from "@mui/material";
+import { Box, TextField } from "@mui/material";
+import React from "react";
 import Boton from "../../Boton/Boton";
-import { useForm } from "react-hook-form";
-import { nuevoVideoSchema } from "./Validaciones";
-import { yupResolver } from "@hookform/resolvers/yup";
-import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { nuevaCategoriaSchema } from "./Validaciones";
 
-const NuevoVideoForm = (props) => {
-    const [valueSelect, setValueSelect] = useState(null)
-    const [valueCate, setValueCate] = useState([])
-    useEffect(() => {
-    }, [valueCate]);
+const NuevaCategoriaForm = (props) => {
     const { inputs, buttons } = props.data;
     const { almacenarDatos, sx } = props;
     const {
@@ -20,70 +16,34 @@ const NuevoVideoForm = (props) => {
         formState: { errors },
     } = useForm({
         mode: "onChange",
-        resolver: yupResolver(nuevoVideoSchema),
+        resolver: yupResolver(nuevaCategoriaSchema),
         defaultValues: {
-            titulo: "",
-            url: "",
-            imagen: "",
-            categoria_id: "",
+            nombre: "",
+            color: "",
             descripcion: "",
             codSeg: ""
         },
     });
     const limpiarInputs = () => {
         reset({
-            titulo: "",
-            url: "",
-            imagen: "",
-            categoria_id: "",
+            nombre: "",
+            color: "",
             descripcion: "",
             codSeg: ""
         });
-        setValueSelect("");
-    };
-
-    const selectedCateValue = (datos) => {
-        setValueCate((prevDatos) => [...prevDatos, ...datos]);
     };
     return (
         <Box component="form"
             sx={sx}
             onSubmit={handleSubmit((data) => {
-                const categoriaSeleccionada = data.categoria_id;
-                const categoriaEncontrada = valueCate.find(([_, nombre]) => nombre === categoriaSeleccionada);
-                if (categoriaEncontrada) {
-                    const [id] = categoriaEncontrada;
-                    data.categoria_id = id;
-                }
                 almacenarDatos(data);
                 limpiarInputs();
             })}>
             {inputs.map((input, i) => {
-                const { label, type, name, select, variant, sx, component } = input;
+                const { label, type, name, variant, sx, component } = input;
                 const esTextArea = !!component;
                 return (
                     <React.Fragment key={i}>
-                        {select ? <Autocomplete
-                            disablePortal
-                            options={select.map((option) => option.nombre)}
-                            value={select.map((option) => option.nombre).includes(valueSelect) ? valueSelect : null}
-                            onBlur={({ target }) => {
-                                const datos = select.map((option) => [option.id, option.nombre]);
-                                setValueCate([]);
-                                setValueSelect(target.value);
-                                selectedCateValue(datos);
-                            }}
-                            renderInput={(params) =>
-                                <TextField {...params}
-                                    label={label}
-                                    variant={variant}
-                                    sx={sx}
-                                    error={!!errors[name]}
-                                    helperText={errors[name]?.message}
-                                    {...register(name)}
-                                />
-                            } />
-                            :
                             <TextField
                                 key={i}
                                 label={label}
@@ -96,7 +56,7 @@ const NuevoVideoForm = (props) => {
                                 sx={sx}
                                 autoComplete="off"
                                 {...(esTextArea ? { multiline: true, rows: 6 } : {})}
-                            />}
+                            />
                     </React.Fragment>
                 )
             })}
@@ -143,4 +103,4 @@ const NuevoVideoForm = (props) => {
     )
 }
 
-export default NuevoVideoForm
+export default NuevaCategoriaForm

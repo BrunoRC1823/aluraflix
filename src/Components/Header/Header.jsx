@@ -17,9 +17,7 @@ const estilosNav = {
 const estilosBoton = {
     color: "white",
     border: "2px solid white",
-    fontWeight: "300",
-    fontSize: "1rem",
-    padding: "1rem 2rem",
+    padding: "0.5rem 2rem",
     "&:hover": {
         backgroundColor: "#ffffff36",
         border: "1px solid white",

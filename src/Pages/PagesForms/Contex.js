@@ -258,7 +258,8 @@ export const CounterProvider = ({ children }) => {
         <CounterContext.Provider value={{
             contentForm,
             estilosForm,
-            estilosContainerForm
+            estilosContainerForm,
+            categorias
         }}>{children}</CounterContext.Provider>
     )
 }

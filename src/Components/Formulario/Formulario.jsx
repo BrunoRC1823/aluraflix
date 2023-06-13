@@ -23,9 +23,10 @@ const devolverForm = (nomForm, data, sx) => {
 
 const Formulario = (props) => {
     const { contentForm, estilosForm } = useContext(CounterContext)
+
     const { nomForm } = props
     return (
-        <Box >
+        <Box>
             {devolverForm(nomForm, contentForm[nomForm], estilosForm)}
         </Box>
     )

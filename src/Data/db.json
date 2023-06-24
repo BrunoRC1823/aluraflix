@@ -1,0 +1,141 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "Que significa penar como programador",
+      "url": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "imagen": "/img/queSignifica.jpg",
+      "categoria_id": 1,
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "codSeg": "df2ad277-41cf-4989-bc4a-fbb7ddc18a6e"
+    },
+    {
+      "id": 2,
+      "titulo": "Que significa penar como programador",
+      "url": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "imagen": "/img/equipoFront.jpg",
+      "categoria_id": 1,
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "codSeg": "f20f1d65-7d68-4a56-9f21-18a2d03f1580"
+    },
+    {
+      "id": 3,
+      "titulo": "Que significa penar como programador",
+      "url": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "imagen": "/img/queEsJs.jpg",
+      "categoria_id": 1,
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "codSeg": "16bdede8-0ca0-4721-a3b1-ae0bb25a7de3"
+    },
+    {
+      "id": 4,
+      "titulo": "Que significa penar como programador",
+      "url": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "imagen": "/img/varJs.jpg",
+      "categoria_id": 1,
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "codSeg": "58c4f2aa-4093-448f-a092-07b06eb4ee06"
+    },
+    {
+      "id": 5,
+      "titulo": "Que significa penar como programador",
+      "url": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "imagen": "/img/queSignifica.jpg",
+      "categoria_id": 2,
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "codSeg": "e773ca1a-b5ad-48a3-ade8-a72e9038a9e1"
+    },
+    {
+      "id": 6,
+      "titulo": "Que significa penar como programador",
+      "url": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "imagen": "/img/equipoFront.jpg",
+      "categoria_id": 2,
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "codSeg": "5fd95712-a260-432e-9ce5-42913fd05c6f"
+    },
+    {
+      "id": 7,
+      "titulo": "Que significa penar como programador",
+      "url": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "imagen": "/img/queEsJs.jpg",
+      "categoria_id": 2,
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "codSeg": "959e4b3d-8d19-4554-ace8-3a9cdf5ccff8"
+    },
+    {
+      "id": 8,
+      "titulo": "Que significa penar como programador",
+      "url": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "imagen": "/img/varJs.jpg",
+      "categoria_id": 2,
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "codSeg": "a72dd569-a4e7-4fe4-bcdd-25cb1f606e96"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "FrontEnd",
+      "color": "#6bd1ff",
+      "descripcion": "Todos los video que estoy usando para estudiar Front End",
+      "codSeg": "6e872457-144e-4a07-b134-7d4d2938131a"
+    },
+    {
+      "id": 2,
+      "nombre": "Infraestructura",
+      "color": "#9cd33b",
+      "descripcion": "Todo lo que estoy aprendiendo sobre Docker y mucho mas",
+      "codSeg": "5a05bdd2-ea8c-4a1c-8526-d4a14a9b3511"
+    },
+    {
+      "id": 3,
+      "nombre": "BackEnd",
+      "color": "#00c86f",
+      "descripcion": "Todos los video que estoy usando para estudiar Back End",
+      "codSeg": "2e87c6ae-b41a-4013-87a8-0cb04b188341"
+    },
+    {
+      "id": 4,
+      "nombre": "Marketing",
+      "color": "#6b5be2",
+      "descripcion": "La forma de vender y monetizar mis ideas",
+      "codSeg": "db3611c8-340f-4ed1-871f-6da962b09592"
+    },
+    {
+      "id": 5,
+      "nombre": "Mobile",
+      "color": "#ffba05",
+      "descripcion": "Contenido que vengo estudiando sobre React Native y Flutter",
+      "codSeg": "822e1166-c4e9-4518-b380-f324e9af9517"
+    },
+    {
+      "id": 6,
+      "nombre": "Innovacion",
+      "color": "#ff8c2a",
+      "descripcion": "Como mantener el equipo feliz y mucho mas",
+      "codSeg": "06d99437-7e81-4670-9cce-5e7f086e7d8a"
+    },
+    {
+      "id": 7,
+      "nombre": "UX",
+      "color": "#dc6ebe",
+      "descripcion": "Herramientas y técnicas que estudio sobre UX y Design",
+      "codSeg": "7cea6353-3e54-4e04-b97c-5cdf9e554392"
+    },
+    {
+      "id": 8,
+      "nombre": "DataScience",
+      "color": "#9cd33b",
+      "descripcion": "Cosas de React y Python que vengo aprendiendo",
+      "codSeg": "2eaff844-d1e3-4516-8ddc-5c4ba5f642a6"
+    },
+    {
+      "nombre": "adad",
+      "color": "#832525",
+      "descripcion": "adad",
+      "codSeg": "f724f857-bbe3-4a68-b4b9-eed53ce79fd3",
+      "id": "f35e991c-ecd5-454b-aed3-2142f8b4f0ed"
+    }
+  ]
+}

@@ -1,76 +1,12 @@
 import React, { createContext } from "react";
-import { ListaColores } from "../../UI/Variables";
+import { categoriasServices } from "../../Service/categoria-service";
+import { videosServices } from "../../Service/videos-service";
 
 export const CounterContext = createContext();
 
+const categorias = await categoriasServices.listaCategorias()
+const videos = await videosServices.listaVideos();
 export const CounterProvider = ({ children }) => {
-    const { colorFrontEnd,
-        colorInfraestructura,
-        colorBackEnd,
-        colorMarketing,
-        colorMobile,
-        colorInnovacion,
-        colorUX,
-        colorDataScience, } = ListaColores
-
-    const categorias = [
-        {
-            id: 1,
-            nombre: "FrontEnd",
-            descripcion: "Todos los video de la área de Front End colocar en esta categoría para organizar los estudios que vengo haciendo actualmente",
-            color: colorFrontEnd,
-            codSeg: ""
-        },
-        {
-            id: 2,
-            nombre: "Infraestructura",
-            descripcion: "Todos los video de la área de Front End colocar en esta categoría para organizar los estudios que vengo haciendo actualmente",
-            color: colorInfraestructura,
-            codSeg: ""
-        },
-        {
-            id: 3,
-            nombre: "BackEnd",
-            descripcion: "Todos los video de la área de Front End colocar en esta categoría para organizar los estudios que vengo haciendo actualmente",
-            color: colorBackEnd,
-            codSeg: ""
-        },
-        {
-            id: 4,
-            nombre: "Marketing",
-            descripcion: "Todos los video de la área de Front End colocar en esta categoría para organizar los estudios que vengo haciendo actualmente",
-            color: colorMarketing,
-            codSeg: ""
-        },
-        {
-            id: 5,
-            nombre: "Mobile",
-            descripcion: "Todos los video de la área de Front End colocar en esta categoría para organizar los estudios que vengo haciendo actualmente",
-            color: colorMobile,
-            codSeg: ""
-        },
-        {
-            id: 6,
-            nombre: "Innovacion",
-            descripcion: "Todos los video de la área de Front End colocar en esta categoría para organizar los estudios que vengo haciendo actualmente",
-            color: colorInnovacion,
-            codSeg: ""
-        },
-        {
-            id: 7,
-            nombre: "UX",
-            descripcion: "Todos los video de la área de Front End colocar en esta categoría para organizar los estudios que vengo haciendo actualmente",
-            color: colorUX,
-            codSeg: ""
-        },
-        {
-            id: 8,
-            nombre: "DataScience",
-            descripcion: "Todos los video de la área de Front End colocar en esta categoría para organizar los estudios que vengo haciendo actualmente",
-            color: colorDataScience,
-            codSeg: ""
-        },
-    ]
     const estilosInputs = {
         borderRadius: "5px 5px 0 0",
         '& .css-e4w4as-MuiFormLabel-root-MuiInputLabel-root': {
@@ -122,6 +58,14 @@ export const CounterProvider = ({ children }) => {
     const contentForm = {
         NuevoVideoForm: {
             inputs: [
+                {
+                    label: "ID",
+                    type: "text",
+                    name: "id",
+                    variant: "filled",
+                    sx: estilosInputs,
+                    hidden: true,
+                },
                 {
                     label: "Titulo",
                     type: "text",
@@ -197,6 +141,14 @@ export const CounterProvider = ({ children }) => {
         NuevaCategoriaForm: {
             inputs: [
                 {
+                    label: "ID",
+                    type: "text",
+                    name: "id",
+                    variant: "filled",
+                    sx: estilosInputs,
+                    hidden: true,
+                },
+                {
                     label: "Nombre",
                     type: "text",
                     name: "nombre",
@@ -259,7 +211,8 @@ export const CounterProvider = ({ children }) => {
             contentForm,
             estilosForm,
             estilosContainerForm,
-            categorias
+            categorias,
+            videos
         }}>{children}</CounterContext.Provider>
     )
 }
